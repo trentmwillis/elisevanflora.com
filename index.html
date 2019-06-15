@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=F, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:700i|Nunito:400,400i,700,700i&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            --color-primary-0: #05400A;
+            --color-primary-1: #0E5814;
+            --color-primary-2: #207227;
+            --color-primary-3: #2F8132;
+            --color-primary-4: #3F9142;
+            --color-primary-5: #57AE5B;
+            --color-primary-6: #7BC47F;
+            --color-primary-7: #A3D9A5;
+            --color-primary-8: #C1EAC5;
+            --color-primary-9: #E3F9E5;
+
+            --size-3: 1.5634rem;
+            --size-6: 3.0524rem;
+
+            background: linear-gradient(to top, var(--color-primary-1), var(--color-primary-5));
+        }
+
+        body {
+            display: flex;
+            font-family: 'Nunito', sans-serif;
+            align-items: center;
+            justify-content: center;
+            min-height: calc(100vh - 2rem);
+            background: white;
+            border-radius: 1.5rem;
+            padding-bottom: 3rem;
+            margin: 1rem;
+        }
+
+        .img-container {
+            border-radius: 100%;
+            background: linear-gradient(to top, var(--color-primary-1), var(--color-primary-5));
+            padding: 0.5rem;
+            margin-right: 1rem;
+        }
+
+        img {
+            display: block;
+            border-radius: 100%;
+            max-width: 15rem;
+        }
+
+        .title {
+            color: var(--color-primary-2);
+            font-family: 'Cormorant Garamond', serif;
+            font-size: calc(var(--size-6) * 1.5);
+        }
+
+        .subtitle {
+            font-size: var(--size-3);
+            color: #423D33;
+        }
+
+        .footer {
+            position: absolute;
+            bottom: 2rem;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="img-container">
+        <img src="./profile.jpg" alt="Elise">
+    </div>
+    <div class="info">
+        <h1 class="title">elisevanflora</h1>
+        <p class="subtitle">trees, exploration, & hand lettering</p>
+    </div>
+
+</body>
+</html>
